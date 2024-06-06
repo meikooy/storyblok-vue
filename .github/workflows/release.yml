@@ -1,7 +1,6 @@
 name: Release CI
 
 on:
-  workflow_dispatch:
   push:
     branches: [main, next, beta]
   pull_request:
