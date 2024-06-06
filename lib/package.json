@@ -1,5 +1,5 @@
 {
-  "name": "@storyblok/vue",
+  "name": "@meiko/storyblok-vue",
   "version": "0.0.1",
   "description": "Storyblok directive for get editable elements.",
   "main": "./dist/storyblok-vue.js",

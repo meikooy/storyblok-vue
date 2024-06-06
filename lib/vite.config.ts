@@ -16,9 +16,10 @@ export default defineConfig(() => {
         output: {
           globals: {
             vue: "Vue",
+            "@storyblok/js": "StoryblokJS",
           },
         },
-        external: ["vue"],
+        external: ["vue", "@storyblok/js"],
       },
     },
     plugins: [vue()],
