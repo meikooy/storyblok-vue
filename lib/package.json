@@ -1,5 +1,5 @@
 {
-  "name": "@meiko/storyblok-vue",
+  "name": "@storyblok/vue",
   "version": "0.0.1",
   "description": "Storyblok directive for get editable elements.",
   "main": "./dist/storyblok-vue.js",
@@ -25,7 +25,7 @@
     "prepublishOnly": "npm run build && cp ../README.md ./"
   },
   "dependencies": {
-    "@storyblok/js": "^3.1.0"
+    "@storyblok/js": "^3.0.9"
   },
   "devDependencies": {
     "@babel/core": "^7.24.7",
@@ -64,7 +64,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/meikooy/storyblok-vue"
+    "url": "https://github.com/storyblok/storyblok-vue"
   },
   "keywords": [
     "vue",
@@ -72,9 +72,9 @@
   ],
   "author": "Alexander Feiglstorfer",
   "bugs": {
-    "url": "https://github.com/meikooy/storyblok-vue/issues"
+    "url": "https://github.com/storyblok/storyblok-vue/issues"
   },
-  "homepage": "https://github.com/meikooy/storyblok-vue",
+  "homepage": "https://github.com/storyblok/storyblok-vue",
   "release": {
     "branches": [
       "main",
